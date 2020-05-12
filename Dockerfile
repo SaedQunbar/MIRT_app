@@ -1,7 +1,7 @@
 # https://juanitorduz.github.io/dockerize-a-shinyapp/
 # https://www.bjoern-bos.de/post/learn-how-to-dockerize-a-shinyapp-in-7-steps/
 # get shiny serves plus tidyverse packages image
-FROM rocker/shiny-verse:latest
+FROM rocker/shiny:latest
 
 RUN apt-get update && apt-get install -y \
     sudo \
